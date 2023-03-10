@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746613269681",
+    "project_id": "bloodtestproj",
+    "storage_bucket": "bloodtestproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746613269681:android:153fe6027c75a873236e90",
+        "android_client_info": {
+          "package_name": "com.example.loginfirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746613269681-faaohq8lic45ctqmqc5c5kshrskpls53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCtf__Z_Yg54HdG_NcUbEM_fL0V0JaZN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746613269681-faaohq8lic45ctqmqc5c5kshrskpls53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

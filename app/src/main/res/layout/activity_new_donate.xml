@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donate.NewDonate"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Details"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="50sp"/>
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Age"
+        android:minHeight="48dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/BloodGrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Group"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/MedHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Past Medical History"
+        android:minHeight="48dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donate"
+        android:id="@+id/BtnDonateNewUser"/>
+</LinearLayout>
