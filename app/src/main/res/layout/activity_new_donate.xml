@@ -7,21 +7,25 @@
     tools:context=".Donate.NewDonate"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_margin="16dp">
+    android:background="#f4eaea">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Personal Details"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         android:gravity="center"
-        android:textSize="40dp"
-        android:layout_marginBottom="50sp"/>
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        >
+
     <EditText
         android:id="@+id/Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Your Name"
-        android:minHeight="48dp"/>
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp"
+        />
 
     <EditText
         android:id="@+id/Age"
@@ -29,6 +33,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter Your Age"
         android:minHeight="48dp"
+        android:layout_marginTop="16dp"
         android:inputType="number"/>
 
     <EditText
@@ -36,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Blood Group"
+        android:layout_marginTop="16dp"
         android:minHeight="48dp" />
 
 
@@ -44,11 +50,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Past Medical History"
+        android:layout_marginTop="16dp"
         android:minHeight="48dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Donate"
+        android:layout_marginTop="26dp"
+        android:textSize="16sp"
+        android:background="@drawable/round_edges"
         android:id="@+id/BtnDonateNewUser"/>
+    </LinearLayout>
 </LinearLayout>
